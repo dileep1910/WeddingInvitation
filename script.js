@@ -117,7 +117,7 @@ function setupAnimations() {
 }
 
 function startCountdown() {
-  const target = new Date("2026-03-29T21:52:00").getTime();
+  const target = new Date("2026-04-30T19:30:00").getTime();
   const circleCircumference = 364.4;
 
   function updateCircle(id, value, max) {
