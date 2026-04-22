@@ -60,15 +60,21 @@ function setupAnimations() {
     });
 
     tl.to(templeGroup, {
-      y: -1200,
-      ease: "none",
+      y: -400,
+      ease: "power2.inOut",
       immediateRender: false
+    }, 0);
+
+    tl.to(templeImg, {
+      scale: 1.575,
+      transformOrigin: "center center",
+      ease: "power2.inOut"
     }, 0);
 
     tl.to(names, {
       opacity: 0,
       y: -100,
-      ease: "none"
+      ease: "power2.inOut"
     }, 0);
 
     tl.to(thoranam, {
@@ -98,15 +104,21 @@ function setupAnimations() {
     });
 
     tl.to(templeGroup, {
-      y: -450,
-      ease: "none",
+      y: -250,
+      ease: "power2.inOut",
       immediateRender: false
+    }, 0);
+
+    tl.to(templeImg, {
+      scale: 2.025,
+      transformOrigin: "center center",
+      ease: "power2.inOut"
     }, 0);
 
     tl.to(names, {
       opacity: 0,
       y: -50,
-      ease: "none"
+      ease: "power2.inOut"
     }, 0);
 
     tl.to(thoranam, {
